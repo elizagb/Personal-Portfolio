@@ -47,6 +47,8 @@ export default function ExperienceCard({cardInfo, isDark}) {
           onLoad={() => getColorArrays()}
         />
       </div>
+
+
       <div className="experience-text-details">
         <h5
           className={
@@ -75,9 +77,25 @@ export default function ExperienceCard({cardInfo, isDark}) {
         >
           {cardInfo.desc}
         </p>
+
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
+
+        {cardInfo.link && cardInfo.linkText && (
+      
+      
+      <a
+        className={isDark ? "experience-link dark-mode-text" : "experience-link"}
+        href={cardInfo.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ display: "inline-block", marginTop: "10px" }}
+      >
+        {cardInfo.linkText}
+      </a>
+    )}
+    
       </div>
     </div>
   );

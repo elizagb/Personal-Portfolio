@@ -162,18 +162,16 @@ const workExperiences = {
       company: "Deloitte",
       companylogo: require("./assets/images/deloitteLogo.gif"),
       date: "Sep 2025 –",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "I'm excited to head to Portland to work for Deloitte's Government and Public Services practice! I will be hold a technical role on consulting projects for State of Oregon clients."
     },
     {
       role: "Research Assistant",
       company: "Ponisio Lab",
       companylogo: require("./assets/images/uoSeal.webp"),
       date: " Jun 2024 – Present",
-      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Cleaned and analyzed ecological data on pollinator diversity using R and Excel to study species interaction.",
-        "Built a land cover classification machine learning model to analyze viable pollinator habitat in post-fire regions.",
-      ]
+      desc: "I cleaned and analyzed ecological data on pollinator diversity using R and Excel to study species interaction. As well as built a land cover classification machine learning model to analyze viable pollinator habitat in post-fire regions.",
+      // linkText: "Click here to see work samples",
+      // link: "https://your-link-here.com",
     },
     {
       role: "Software Engineering Intern",

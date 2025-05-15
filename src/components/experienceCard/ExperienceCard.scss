@@ -121,6 +121,15 @@
   margin-top: 2rem;
 }
 
+.experience-link {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.experience-link:hover {
+  color: #0056b3;
+}
+
 /* Media Query */
 
 @media (max-width: 1380px) {
