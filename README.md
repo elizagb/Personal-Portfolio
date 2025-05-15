@@ -21,7 +21,6 @@ Created something awesome for your fork of the portfolio and want to share it? F
 - [Getting Started](#getting-started)
 - [How to Use](#how-to-use)
 - [Linking portfolio to GitHub](#linking-portfolio-to-github)
-- [Linking blogs section to Medium](#linking-blogs-section-to-medium)
 - [Change and Customize](#change-and-customize-every-section-according-to-your-need)
 - [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
@@ -37,7 +36,6 @@ Created something awesome for your fork of the portfolio and want to share it? F
 ✔️ Open Source Projects Connected with GitHub\
 ✔️ Big Projects\
 ✔️ Achievements And Certifications 🏆\
-✔️ Blogs\
 ✔️ Talks\
 ✔️ Podcast\
 ✔️ Contact me\
@@ -181,8 +179,6 @@ const openSource = { .... }
 const bigProjects = { .... }
 
 const achievementSection = { .... }
-
-const blogSection = { .... }
 
 const contactInfo = { .... }
 
