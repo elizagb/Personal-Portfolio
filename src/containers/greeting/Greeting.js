@@ -9,6 +9,8 @@ import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
+import portrait from "../../assets/images/me.jpeg";
+
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
   if (!greeting.displayGreeting) {
@@ -68,7 +70,7 @@ export default function Greeting() {
             
             <img
                 alt="portrait"
-                src={require(".../.../assets/images/me.jpeg")}
+                src={portrait}
               ></img>
             
           </div>

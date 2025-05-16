@@ -1,0 +1,48 @@
+@import "../../_globalColor";
+
+
+.carousel { 
+    // overflow: hidden; 
+    // padding-bottom: 1rem; 
+}
+
+.carousel-inner {
+    //  overflow: visible;
+ }
+
+.carousel-caption {
+    color: $textColor; 
+    text-align: center;
+    top: 0%;
+}
+
+.dark-carousel-caption {
+    color: $textColorDark; 
+    text-align: center;
+    top: 100%;
+}
+
+.carousel-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+
+// For left and right arrows
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none; /* Remove default Bootstrap arrow icon */
+}
+
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+  content: '‹'; /* Left arrow */
+  font-size: 4rem;
+  color: #ffcc00; /* Arrow color */
+}
+
+.carousel-control-next-icon::after {
+  content: '›'; /* Right arrow */
+}
